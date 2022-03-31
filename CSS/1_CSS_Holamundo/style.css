@@ -1,3 +1,101 @@
-body {
-  color: orange;
+/*  */
+/* tag */
+/* h1{
+ color: tomato;
 }
+#title {
+  color: blue;
+}
+.text {
+  color: rebeccapurple;
+}
+
+p.text{
+  color: aqua;
+}
+
+p.special {
+  color: green;
+}
+
+div p {
+  color: red;
+} */
+
+
+html {
+  font-size:16px;
+}
+/* div {
+  font-size: 15px;
+} */
+ .text {
+  /* border: 5px red inset; */
+  border-style: solid;
+  border-color:blue;
+  border-radius:5px;
+  /* Medidas absolutas */
+  /* border-width: 4px; */
+  /* border-width: 4cm; */
+  /* border-width: 4mm; */
+  /* border-width: 4in; */
+  /* border-width: 4pt; */
+  /* border-width: 4pc; */
+  border-width: 2rem;
+}
+#fondo {
+  height: 200px;
+  background-color: blue;
+  /* background-image: url('/img/coffee.png');
+  background-size: auto;
+  background-size: cover;
+  background-size: contain; */
+
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-position: center bottom; */
+  background: #f00 url('/img/coffee.png') repeat-y center bottom / 100px 100px;
+  /* background-size: 100px 100px; */
+}
+
+/* BOx model de css */
+.margin {
+   /* margin: 15px 2px 25px 30px; top  right bottom left  */
+   margin: 5px; /*top  right bottom left*/ 
+}
+.outline {
+  /*BETWEEN MARGIN AND BORDER*/
+  outline: 5px solid red;
+}
+.border{
+  border:  rgb(4, 0, 255)  10px solid;
+  
+} 
+.padding {
+  padding: 30px 15px 5px;
+} 
+.content{
+  background-color: #f00;
+  height:100px; 
+  width: 50px; /*No contempla ni el paddin border ni margin por lo cual para identificar el tamano de un elemento hay que sumar el ancho del  padding border marging*/
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  overflow: scroll;
+
+  /* outline:  red 1px solid; */
+
+}
+.text2 {
+  /* text-align: left; default value */
+  /* text-align: center; */
+  /* text-align: right; */
+  /* text-align: justify; */
+  /* text-decoration:none; default */
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  text-shadow:3px 5px 4px blue ;
+ /* text-shadow: moveToRight,movoToBottom, blur o difuminado, color; */
+}
+
+/* I STOPPED 1:09:03 */
