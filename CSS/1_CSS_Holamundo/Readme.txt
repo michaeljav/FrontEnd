@@ -102,6 +102,45 @@ color:#000000
 > text-decoration: overline;
 > text-shadow:3px 5px 4px blue ;
  >text-shadow: moveToRight,movoToBottom, blur o difuminado, color; 
+>font-family//cambiar el estilo  o fuente
+++++++LINKS: es important the order
+>Tienen 4 posibles estados. 
+>1.CUANDO NUNCA HA SIDO VISITADO
+>2.CUANDO HA SIDO VISITADO
+>3.CUANDO PASAMOS EL MOUSE POR ENCIMA DE EL
+>4.CUANDO ESTE LINK SE ENCUENTRA ACTIVO (cuando estoy pinchando el link)
++++++++LISTAS
+>ORDENADAS Y DESORDENADAS
+><OL>
+><UL></UL>
+++++++++TABLES
+>tr:hover
+>tr:nth-child(odd) valores impares
+>tr:nth-child(even) pares
++++++++++++++++DISPLAY
+>NOS INDICA COMO COLOCAR LOS ELEMENTOS SOBRE HTML (BLOCK/INLINE/INLINE-BLOCK)
+>la propiedad de display en div y span diferente
+>display:block;cojen toda la linea. nota:viene por defecto en la mayoria de los elementos
+>display:inline; solo coje su espacio . (span,a links, img)  default. (a esta propiedad no se le puede asignar el width ni hight)
+>display:none; oculta y quita su espacio
+>visibility:hidden; oculta pero mantiene su espacio donde esta.
+>display:block-inline; se le puede asignar un ancho width y alto height
+++++++++++WIDTH
+>max-width: maximo un ancho pero puede ser menos
+++++++++++POSITION
+>posicional un elemento en distintas parte de la pantalla 
+>postion:static; valor por defecto con el que viene todos los elementos de HTML 
+>position:relative; es una posicion relativa a donde debiese estar este elemento.
+>position: fixed; este tiene que tener una position  con respecto a lo que estamos viendo en el explorador. es decir se queda pegado a una posicion y aunque bajes en el scroll ella ira contigo.
+>position:absolute; se va a posicional relativo con el elemento padre que éste tenga. en caso de no existir un elemento padre, utiliza la etiqueta de body.
+>position:sticky; se mueve cuando el scroll se mueve.
++++++++++FLOAT
+> HACE FLOTAR A NUESTROS ELEMENTOS DENTRO DEL HTML
++++++++++++/* como central un elemento no su interior: DEBE SE INDICARSELE SIEMPRE UNA ANCHO MENOR AL 100%*/
+width: 200px;
+  /* margin: 0 para que aparezca centrado verticalmente y auto */
+  margin: 0 auto;
+
 
 
 
