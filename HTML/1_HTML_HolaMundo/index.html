@@ -1,102 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My primera Web</title>
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-    </style>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 500px">
-      <thead>
-        <tr>
-          <th>Price</th>
-          <th>Product</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Hola</td>
-          <td>Gratis</td>
-        </tr>
-        <tr>
-          <td>CUCUMBER CUCUMBER</td>
-          <td>NOT FREE</td>
-        </tr>
-        <tr>
-          <td>CUCUMBER CUCUMBER VERY CUCUMBER</td>
-          <td>2603,54$</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <td></td>
-        <td>TOTAL:512</td>
-      </tfoot>
-    </table>
+    <header id="titulo">
+      <h1>Blog de Michael Javier Mota</h1>
+    </header>
+    <section class="container">
+      <article class="post">
+        <h2>Título de mi post</h2>
+        <p>Descripción de mi post</p>
+        <img src="img/coffee.png" alt="caffe" width="400" />
+        <p>Texto de prueba para el todo feliz</p>
+      </article>
+      <article class="post">
+        <h2>Título de mi post 2</h2>
+        <p>Descripción de mi post 2</p>
+        <img src="img/monster.png" alt="caffe" width="400" />
+        <p>Texto de prueba para el todo feliz 2</p>
+      </article>
+      <article class="post">
+        <h2>Título de mi post 3</h2>
+        <p>Descripción de mi post 3</p>
+        <img src="img/guitarra.png" alt="caffe" width="400" />
+        <p>Texto de prueba para el todo feliz 3</p>
+      </article>
+    </section>
+    <footer>
+      <section>
+        <a href="#titulo">Go up</a>
+        <a href="mailto:michaeljaviermota@gmail.com">Conctact me here</a>
+      </section>
 
-    <!-- Lista No ordenada -->
-    <ul>
-      <li>Michael</li>
-      <li>Michael</li>
-    </ul>
-    <!-- lista ordenada -->
-    <ol>
-      <li value="50">Javier</li>
-      <li>Javier</li>
-      <li>Javier</li>
-      <li>
-        <ol>
-          <li style="list-style-type: lower-alpha">Sub Element 1</li>
-          <li style="list-style-type: circle">Sub Element 1</li>
-          <li>Sub Element 1</li>
-        </ol>
-      </li>
-    </ol>
-
-    <form action="/formulario" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Name" />
-      <br />
-      <label for="lastName">Last Name</label>
-      <input
-        type="text"
-        id="lastName"
-        name="lastName"
-        value="Javier Mota"
-        placeholder="Last Name"
-      />
-      <br />
-      <label for="comment">Comment</label>
-      <textarea
-        rows="10"
-        cols="50"
-        name="comment"
-        id="comment"
-        placeholder="Insert Comment"
-      ></textarea>
-      <!-- <input type="submit"></input> -->
-      <button type="button">button usar con javascript</button>
-      <button type="reset">reset controls</button>
-      <button type="submit">submit values to server</button>
-    </form>
-    <h1>Mi primer heading</h1>
-    <h2>Mi primer heading</h2>
-    <h3>Mi primer heading</h3>
-    <h4>Mi primer heading</h4>
-    <h5>Mi primer heading</h5>
-    <h6>Mi primer heading</h6>
-    <p>Chanchito feliz hoal</p>
-    <p>Chanchito triste</p>
-    <hr />
-    <h2>Chanchito felipe</h2>
-    <p>
-      holas es <span style="color: blue">esto es sapn </span>mucho mas largo
-    </p>
-    <a href="https://www.google.com" target="blank">Ir a google</a>
-    <img src="/img/coffee.png" alt="google" height="400" />
+      <p>Copyright 2021</p>
+    </footer>
   </body>
 </html>

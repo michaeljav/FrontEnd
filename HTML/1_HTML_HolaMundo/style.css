@@ -1,0 +1,83 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Resetear la equiteta de body */
+body {
+   margin:0px;
+   background-color: #efefef;
+}
+header {
+  /* display: flex;
+  justify-content: center; */
+  background-color: cadetblue;
+  color: white;
+  /*medidas relatiba al tamano de la fuente de la etiqueta HTML rootem 16px default*/
+  padding: 3rem  2rem;
+  
+}
+
+header h1 {
+  font-size: 4rem ;
+  /* center */
+  /* 
+  text-align: center; */
+  text-align: center;
+
+  /* display: flex;
+  justify-content: center;  */
+  
+}
+
+.container {
+
+  /* background-color: aquamarine; */
+  /* porque las imagenes sonde 400px */
+ width: 400px;
+  /* Centrar contenido */
+  margin: 0 auto;
+
+}
+
+section article {
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  /* top_bottom left_right */
+  padding: 0.25rem 0;
+}
+
+section article:hover {
+  /* Transicion entre existe sombra y no exista*/
+  /* propiedad a animal, tiempo de transicion entre inicio y final,algoritmo para acelerar y desacelerar la animacion */
+  transition: box-shadow 0.3s ease;
+  /* desplazar derecha, desplazar abajo, difuminacion, color */
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+section article h2, section article p {
+  margin: 1rem;
+}
+
+footer {
+  background-color: #222;
+  padding: 3rem;
+  color: white;
+}
+
+footer section {
+  /* background-color: red; */
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+
+  color: cornflowerblue;
+}
